@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<androidx.constraintlayout.widget.ConstraintLayout
+   android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/maingredient"
+    tools:context="co.yeppar.powertall.screens.Guest">
+
+    <RelativeLayout
+        android:layout_width="0dp" android:layout_height="0dp" android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:layout_above="@id/circle1" android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical" android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" android:layout_marginTop="30dp"
+                    android:fontFamily="@font/fontbold" android:text="@string/standart"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" android:layout_marginTop="5dp"
+                    android:fontFamily="@font/fontmedium" android:text="@string/helemal"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" android:layout_marginTop="5dp"
+                    android:fontFamily="@font/fontmedium" android:text="@string/regiser"
+                    android:textColor="@color/white" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/startbtn" android:layout_width="250dp"
+                    android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="40dp" android:background="@drawable/btnback"
+                    android:fontFamily="@font/fontbold" android:text="@string/start"
+                    android:textAllCaps="false"
+
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" android:layout_marginTop="60dp"
+                    android:fontFamily="@font/fontbold" android:text="@string/gevorder"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" android:layout_marginTop="5dp"
+                    android:fontFamily="@font/fontmedium" android:text="@string/voormar"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" android:layout_marginTop="5dp"
+                    android:fontFamily="@font/fontmedium" android:text="@string/perjar"
+                    android:textColor="@color/white" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/loginbtn" android:layout_width="250dp"
+                    android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="40dp" android:background="@drawable/borderback"
+                    android:fontFamily="@font/fontbold" android:text="@string/login"
+                    android:textAllCaps="false" android:textColor="@color/white" />
+
+            </LinearLayout>
+
+        </ScrollView>
+        
+        <include layout="@layout/wheel_layout"
+            android:id="@+id/circle1"
+            />
+        
+        
+        
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

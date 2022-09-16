@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/maingredient"
+        tools:context="co.yeppar.powertall.screens.Guest">
+
+
+
+        <LinearLayout
+            android:layout_width="0dp" android:layout_height="0dp" android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                app:elevation="0dp">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:layout_scrollFlags="scroll|enterAlways">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentLeft="true"
+                            android:gravity="center"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/dashlogo"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/logo"
+                                android:textColor="@color/white"
+                                android:textSize="22sp" />
+                        </RelativeLayout>
+
+                        <!-- <TextView android:layout_width="22dp"
+                             android:layout_height="22dp"
+                             android:id="@+id/cartcountview"
+                             android:text="0"
+                             android:gravity="center"
+                             android:textStyle="bold"
+                             android:visibility="invisible"
+                             android:textColor="@color/white"
+                             android:background="@drawable/circlepink"
+                            android:layout_alignParentRight="true"
+                             android:layout_marginBottom="30dp"
+                             android:layout_marginRight="10dp"
+                             />
+
+                         <ImageView
+                             android:layout_width="30dp"
+                             android:layout_height="30dp"
+                             android:id="@+id/carticon"
+                             android:layout_centerVertical="true"
+                             android:src="@drawable/carticon"
+                             android:layout_toLeftOf="@+id/cartcountview"
+                             />-->
+
+
+                    </RelativeLayout>
+
+
+
+                </androidx.appcompat.widget.Toolbar>
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <ScrollView
+                android:layout_width="match_parent" android:layout_height="match_parent"
+               android:scrollbars="none">
+
+                <LinearLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp">
+
+                        <ImageView android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/sound"
+                            />
+
+                    <LinearLayout android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/timerback"
+                        android:padding="10dp"
+                        >
+                        <ImageView android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/timer"
+                            android:layout_gravity="center_vertical"
+                            app:tint="@color/white"
+                            />
+                        <RelativeLayout android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_gravity="center_vertical"
+                            >
+
+                            <ir.samanjafari.easycountdowntimer.EasyCountDownTextview
+                                android:id="@+id/easyCountDownTextview"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:colonColor="@color/white"
+                                app:digitBackground="@android:color/transparent"
+
+                                app:setAnimation="true"
+                                app:showDays="false"
+                                app:showHours="true"
+                                app:textColor="@color/white"
+                                app:textSize="12sp"
+
+                                />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                        <CheckBox
+                            android:id="@+id/checkBox"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/verbergen"
+                            android:textColor="@color/white"
+                            android:textSize="10sp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            app:buttonTint="@color/white"
+                           />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/fontbold"
+                        android:text="@string/research"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="30dp"
+                        android:textColor="@color/white" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/txtcolor"
+                        android:layout_weight="1.8"
+                        android:background="@drawable/blueborder"
+                        android:singleLine="true"
+                        />
+
+                </LinearLayout>
+
+
+
+            </ScrollView>
+
+
+
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

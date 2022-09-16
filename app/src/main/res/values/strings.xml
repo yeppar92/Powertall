@@ -1,0 +1,47 @@
+<resources>
+
+    //guest SCREEN
+    <string name="app_name">Powertall</string>
+    <string name="standart">STANDAARD:</string>
+    <string name="helemal">HELEMAAL GRATIS EN ZONDER</string>
+    <string name="regiser">REGISTRATIE.</string>
+    <string name="start">Start nu</string>
+    <string name="gevorder">GEVORDERD:</string>
+    <string name="voormar">UW EIGEN ACCOUNT VOOR MAAR</string>
+    <string name="euro">€</string>
+    <string name="perjar">€ 7,99 PER JAAR.</string>
+    <string name="login">Inloggen</string>
+    <string name="engel">Engels</string>
+    <string name="netherland">Nederlands</string>
+    <string name="nl">NL</string>
+    <string name="en">EN</string>
+
+    // home screen
+    <string name="laren">Laren</string>
+    <string name="overtype">Overtypen</string>
+    <string name="welke">Welke taalcombinatie Kiest u?</string>
+    <string name="clickop">klick op een van de onderstaande Knoppen</string>
+
+    // Laren screen
+    <string name="home">Home</string>
+    <string name="help">Over Ons</string>
+    <string name="contact">Contact</string>
+    <string name="english">English</string>
+    <string name="automatic">Automtatisch herhalen</string>
+    <string name="stop">Stopen</string>
+
+
+    // overtyper screen
+    <string name="vul">Vul u naam in</string>
+    <string name="naam">Naam</string>
+    <string name="volgende">Volgende...</string>
+    <string name="username">Username</string>
+
+    // game screen
+    <string name="research">Research</string>
+    <string name="verbergen">Verbergen</string>
+    <string name="drukop">Druk op[Enter]</string>
+
+
+
+</resources>

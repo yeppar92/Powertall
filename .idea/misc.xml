@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/drawable-hdpi/navbar_color.xml" value="0.2985" />
+        <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/drawable/ascentback.xml" value="0.2985" />
+        <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/drawable/blueborder.xml" value="0.2985" />
+        <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/drawable/borderback.xml" value="0.2985" />
+        <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/drawable/download_progress_bg_track.xml" value="0.2985" />
+        <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/drawable/grayback.xml" value="0.2985" />
+        <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/drawable/halfcircle.xml" value="0.2985" />
+        <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/drawable/halfcircle_white.xml" value="0.2985" />
+        <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/drawable/maingredient.xml" value="0.2985" />
+        <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/drawable/navbar_color.xml" value="0.2985" />
+        <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/drawable/store_download_progress.xml" value="0.2985" />
+        <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/drawable/timerback.xml" value="0.2985" />
+        <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/layout-sw720dp/wheel_layout.xml" value="0.18985976267529667" />
+        <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/layout/activity_dashboard.xml" value="0.32592592592592595" />
+        <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/layout/activity_guest.xml" value="0.3235294117647059" />
+        <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/layout/activity_homescreen.xml" value="0.32592592592592595" />
+        <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/layout/activity_laren.xml" value="0.32592592592592595" />
+        <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/layout/activity_playinggame.xml" value="0.32592592592592595" />
+        <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/layout/frag_home.xml" value="0.32592592592592595" />
+        <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/layout/wheel_layout.xml" value="0.24954710144927536" />
+        <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/menu/bottom_nav.xml" value="0.32592592592592595" />
+        <entry key="app/src/main/res/drawable/borderback.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable/btnback.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable/en_circle.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable/green_circle.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable/halfcircle.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable/halfcircle_white.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable/maingredient.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable/nl_circle.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable/orange_circle.xml" value="0.1285" />
+        <entry key="app/src/main/res/layout/activity_guest.xml" value="0.1814814814814815" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="app/src/main/res/layout/progress_dialog.xml" value="0.20416666666666666" />
+        <entry key="app/src/main/res/layout/wheel_layout.xml" value="0.13175675675675674" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11 (2)" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/maingredient"
+        tools:context="co.yeppar.powertall.screens.Guest">
+
+        <RelativeLayout
+            android:layout_width="0dp" android:layout_height="0dp" android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/logoImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/logo"
+                />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/circle1"
+                android:layout_below="@id/logoImage"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/startbtn"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/btnback"
+                        android:fontFamily="@font/fontbold"
+                        android:text="@string/laren"
+                        android:textAllCaps="false"
+
+                        android:textColor="@color/white" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/loginbtn"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/borderback"
+                        android:fontFamily="@font/fontbold"
+                        android:text="@string/overtype"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+                    <EditText    android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/grayback"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:minLines="6"
+                        android:maxLines="5"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal" android:layout_marginTop="30dp"
+                        android:fontFamily="@font/fontbold" android:text="@string/welke"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal" android:layout_marginTop="10dp"
+                        android:fontFamily="@font/fontlight" android:text="@string/clickop"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+            <include layout="@layout/wheel_layout"
+                android:id="@+id/circle1"
+                />
+
+
+
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
