@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
     package="co.yeppar.powertall">
+
+    <dist:module dist:instant="true" />
+
+    <uses-feature
+        android:name="android.hardware.camera.ar"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:icon="@mipmap/ic_launcher"
@@ -12,10 +25,7 @@
         android:theme="@style/AwesomeSplashTheme"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".PlayingGame"
-            android:exported="false" />
-        <activity
-            android:name=".screens.Dashboard"
+            android:name=".screens.Videochat"
             android:exported="true"
             android:launchMode="singleTask"
             android:screenOrientation="portrait">
@@ -26,6 +36,28 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".screens.Login"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".screens.Winner"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".screens.PlayingGame"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".screens.Dashboard"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
             android:name=".screens.Homescreen"
             android:exported="true"
             android:launchMode="singleTask"
@@ -34,12 +66,17 @@
             android:name=".screens.Guest"
             android:exported="true"
             android:launchMode="singleTask"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".screens.Splash"
             android:exported="true"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="required" />
+
     </application>
 
 </manifest>

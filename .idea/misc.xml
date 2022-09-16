@@ -6,6 +6,7 @@
         <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/drawable-hdpi/navbar_color.xml" value="0.2985" />
         <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/drawable/ascentback.xml" value="0.2985" />
         <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/drawable/blueborder.xml" value="0.2985" />
+        <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/drawable/bluebtnback.xml" value="0.25" />
         <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/drawable/borderback.xml" value="0.2985" />
         <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/drawable/download_progress_bg_track.xml" value="0.2985" />
         <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/drawable/grayback.xml" value="0.2985" />
@@ -20,7 +21,10 @@
         <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/layout/activity_guest.xml" value="0.3235294117647059" />
         <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/layout/activity_homescreen.xml" value="0.32592592592592595" />
         <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/layout/activity_laren.xml" value="0.32592592592592595" />
+        <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/layout/activity_login.xml" value="0.32592592592592595" />
         <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/layout/activity_playinggame.xml" value="0.32592592592592595" />
+        <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/layout/activity_videochat.xml" value="0.32592592592592595" />
+        <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/layout/activity_winner.xml" value="0.32592592592592595" />
         <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/layout/frag_home.xml" value="0.32592592592592595" />
         <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/layout/wheel_layout.xml" value="0.24954710144927536" />
         <entry key="..\:/vikramprojects/androidnative/Powertall/app/src/main/res/menu/bottom_nav.xml" value="0.32592592592592595" />

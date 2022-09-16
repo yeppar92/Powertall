@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/maingredient"
+        tools:context="co.yeppar.powertall.screens.Guest">
+
+
+
+        <LinearLayout
+            android:layout_width="0dp" android:layout_height="0dp" android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                app:elevation="0dp">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:layout_scrollFlags="scroll|enterAlways">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentLeft="true"
+                            android:gravity="center"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/dashlogo"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                              android:background="@drawable/logo"
+                                android:textColor="@color/white"
+                                android:textSize="22sp" />
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+
+
+
+                </androidx.appcompat.widget.Toolbar>
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fontbold"
+                android:text="@string/vuljeemail"
+                android:layout_gravity="center_horizontal"
+                android:padding="20dp"
+                android:textColor="@color/white" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+                <LinearLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="30dp"
+                        android:textColor="@color/txtcolor"
+                        android:layout_weight="1.8"
+                        android:hint="@string/email"
+                        android:paddingLeft="10dp"
+                        android:background="@drawable/blueborder"
+                        android:singleLine="true"
+                        />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/txtcolor"
+                        android:layout_weight="1.8"
+                        android:paddingLeft="10dp"
+                        android:hint="@string/pass"
+                        android:background="@drawable/blueborder"
+                        android:singleLine="true"
+                        />
+
+                    <LinearLayout android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="30dp"
+                        android:weightSum="2">
+                        <Button
+                            android:id="@+id/registerbtn"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/bluebtnback"
+                            android:fontFamily="@font/fontbold"
+                            android:layout_weight="1"
+                            android:text="@string/register"
+                            android:layout_marginRight="10dp"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white" />
+
+                        <Button
+                            android:id="@+id/loginbtn"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/btnback"
+                            android:fontFamily="@font/fontbold"
+                            android:layout_weight="1"
+                            android:text="@string/login"
+                            android:layout_marginLeft="10dp"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            </ScrollView>
+
+
+
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

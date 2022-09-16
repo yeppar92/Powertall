@@ -21,6 +21,7 @@
     <string name="overtype">Overtypen</string>
     <string name="welke">Welke taalcombinatie Kiest u?</string>
     <string name="clickop">klick op een van de onderstaande Knoppen</string>
+    <string name="mijn">Mijn Profile</string>
 
     // Laren screen
     <string name="home">Home</string>
@@ -42,6 +43,20 @@
     <string name="verbergen">Verbergen</string>
     <string name="drukop">Druk op[Enter]</string>
 
+    // winner screen
+    <string name="woord">Woord Winnaar</string>
+    <string name="opni">Opnieuw</string>
+    <string name="scoreboard">SCOREBOARD</string>
+
+    // login screen
+    <string name="vuljeemail">Vul je e-mail in an wachtwoord</string>
+    <string name="register">Registreren</string>
+    <string name="email">Enter your email</string>
+    <string name="pass">Enter your password</string>
+
+    <string name="agora_app_id">803ee533ef354f02b67f9a8dd827e3ca</string>
+
+    <string name="agora_access_token">007eJxTYLht6HtY6qTAyvvvQzo29XzX+xFXYfMtoXxWx3KO8/V79mcrMFgYGKemmhobp6YZm5qkGRglmZmnWSZapKRYGJmnGicnfrNTSS6boJrc27GQmZEBAkF8doayzGyX1Nx8BgYAfDMkRw==</string>
 
 
 </resources>

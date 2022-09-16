@@ -170,6 +170,37 @@
                         android:singleLine="true"
                         />
 
+                    <ProgressBar
+                        android:id="@+id/progress"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="300dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1.1"
+                        android:indeterminate="false"
+                        android:indeterminateTint="@color/orange"
+                        android:indeterminateTintMode="src_atop"
+                        android:layout_marginTop="30dp"
+                        android:max="100"
+                        android:padding="10dp"
+                        android:background="@color/white"
+                        android:minWidth="200dp"
+                        android:minHeight="50dp"
+                        android:progress="20" />
+
+                    <Button
+                        android:id="@+id/enterbtn"
+                        android:layout_width="220dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/btnback"
+                        android:fontFamily="@font/fontbold"
+                        android:text="@string/drukop"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
                 </LinearLayout>
 
 
